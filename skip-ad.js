@@ -101,10 +101,10 @@ var cfJsHost = (("https:" == document.location.protocol) ? "https://" : "http://
 document.write(unescape("%3Cscript src='" + cfJsHost + "dflzqrzibliy5.cloudfront.net/includes/tinybox/tinybox.js?8998' type='text/javascript'%3E%3C/script%3E"));
 
 $(document)['ready'](function () {
-        $('.abdelali-prot')['html']('<a href="https://infosblg.blogspot.com" rel="dofollow" target="_blank">تعديل من طرف : REDA BAHLAS</a>');
+        $('.abdelali-prot')['html']('');
         setInterval(function () {
                 if (!$('.abdelali-prot:visible')['length']) {
-                  window['location']['href'] = 'http://www.facebook.com/bahlascom';
+                  window['location']['href'] = '';
                 };
             }, 3000);
     });
